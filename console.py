@@ -20,7 +20,7 @@ class HBNBCommand(cmd.Cmd):
     """
     Entry point of the command interpreter
     """
-    prompt = "(hbnb)"
+    prompt = "(hbnb) "
     allowed_classes = [
         "BaseModel", "User", "State", "City", "Amenity", "Place", "Review"
         ]
