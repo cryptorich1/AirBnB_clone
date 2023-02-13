@@ -2,7 +2,7 @@
 """ Define the state clase. """
 from models.base_model import BaseModel
 
-clase State(BaseModel):
+class State(BaseModel):
     """ Represent a state
 
     Attributes:
