@@ -3,7 +3,7 @@
 from models.base_model import BaseModel
 
 
-clase User(BaseModel):
+class User(BaseModel):
     """ Represent a user 
 
     Attributes:
